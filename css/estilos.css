@@ -1,0 +1,93 @@
+body{
+    background-image:url(../img/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  
+}
+.logo{
+    width: 40px;
+    height: 40px;
+
+}
+.Encabezado nav h1{ 
+    color:rgb(0, 0, 0);
+    font-size: 120%;
+    display: inline;
+    margin: 25px 0px 0px 0px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Encabezado{
+    color:rgb(231, 47, 47);
+    height: 10%;
+    height: 40px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.row{
+    width: 100%;
+    height:100%;
+}
+nav label{
+    float:right;
+    margin:10px 20px 0px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    background-color: rgb(2, 2, 2);
+    width: 30%;
+    height: 450px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    color: aliceblue;
+    opacity: 0.96;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:7px;
+}
+.contenedor h1{
+    text-align: center;
+    padding-top: 20px;
+ 
+}
+.inputs{
+    color:white;
+    background-color:rgba(128, 128, 128, 0);
+    width: 92%;
+    height: 35px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    border-radius:5px;
+    border-width:0;
+    border-bottom:1px solid white;
+    box-sizing: border-box; 
+
+}
+.labels{
+    margin-left: 4%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+}
+.check{
+    padding:30px;
+}
+#button{
+    background-color: rgb(71, 0, 138);
+    box-sizing: border-box;
+    border:rgb(54, 2, 88);
+    width: 65%;
+    margin-left: 17.5%;
+    border-radius: 20px; 
+    border-bottom-width: 0.5px solid rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#button:hover{
+    background-color: blueviolet;
+    border-color:white;
+}
+
