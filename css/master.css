@@ -7,7 +7,6 @@
   width: 100%;
   height: 300px;
   border-radius: 100%;
-
   margin-bottom: 26px;
 }
 
@@ -28,4 +27,17 @@
 }
 #cuadro{
   padding: 0%;
+}
+
+.footer{
+  width: 100%;
+  height: 120px;
+  border: 0px;
+  font-family: sans-serif;
+}
+footer{
+  width: 100%;
+  background: black;
+  color: white;
+  
 }
