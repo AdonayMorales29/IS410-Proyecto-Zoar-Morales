@@ -1,5 +1,7 @@
 #fondoPrincipal{
   height: 500px;
+  background-size: cover;
+   width: 100%;
 }
 
 .enlaces{
@@ -18,8 +20,16 @@
   max-height:100em !important;
 }
 
-}
 #cuadro{
   padding: 0%;
 }
+.contenidoFinal{
+  font-family: italic;
+  font-size: 13px;
+  text-align: center;
+  background: rgba(46, 45, 46, 0.158);
+  color: #63023F;
+  font-size: 1em;
+  text-decoration-line: inherit;
 
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Productos</title>
+    <link rel="shortcut icon" href="img/Zoar/1.png">
     <link rel="stylesheet" type="text/css" media="screen" href="css/mainProducto.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -12,33 +13,32 @@
 </head>
 
     
-<body style="background:rgb(255, 253, 253);">
+<body >
     <header>
-            <nav class="navbar navbar-expand-lg  navbar-dark gray scrolling-nabvar">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <form class="form-inline my-2 my-lg-0">
-                            <input id="input" class="form-control mr-sm-2" type="search" placeholder="Buscar Producto" aria-label="Search">
-                            <button id="button" class="btn btn-primary" type="button">Buscar</button>
-                        </form>
+        <div class="container-fluid">
+            <nav  class="navbar navbar-light bg-light">
+                    <a class="navbar-brand"><img src="img/Zoar/icono.png" style="height:60px; color:#400129fd; "></a>
+                    <div>
+                        <a href="#"><i class="fas fa-cart-plus"></i></a>
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                        <a href=""><i class="fas fa-user-alt"></i></a>
+
                     </div>
-                </div>    
+                    <form   class="form-inline">
+                      <input id="BuscarProducto" class="form-control mr-sm-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+                      <button id="buscador" class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                   
             </nav>
-        
+        </div>
     </header>
 
-    
-
-    <div class="wrap">
-            <h1> Elige tus Productos Aqui</h1>
+   <!--Contenedor--> 
+<div class="container-fluid">
+        <h1> Elige tus Productos Aqui</h1>
         <div class="store-wrapper">
             <div class="categorias">
-                <a href="#" class="categoria_item" categoria="all">Todo</a>
+                <a href="#" class="categoria_item ct_item-active" categoria="all">Todo</a>
                 <a href="#" class="categoria_item" categoria="Tecnologia">Tecnologia</a>
                 <a href="#" class="categoria_item" categoria="Autos">Autos</a>
                 <a href="#" class="categoria_item" categoria="Motos">Motos</a>
@@ -104,12 +104,12 @@
 
         </div>
 
-    </div>
+   
       
-                 
+</div>                
        
         
-        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.main.js"></script>
         <script src="js/mainProducto.js"></script>
 </body>
