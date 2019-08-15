@@ -1,8 +1,11 @@
-
-#logoPagina{
-    width: 100px;
-    /*height: 100px;*/
+#fondoPrincipal{
+  height: 500px;
 }
+
+.enlaces{
+  margin-left: auto !important;
+}
+
 .imagenes{
   width: 100%;
   height: 300px;
@@ -14,30 +17,9 @@
   width: 100%;
   max-height:100em !important;
 }
-#button {
-  background-color: rgba(116, 6, 131, 0.911);
-  border-color:  rgba(114, 7, 141, 0.89);
-  border-radius: 12px;
-  color: aliceblue;
-  width: 120px;
-  text-transform:none;
-}
-#input{
-  border-color:rgb(119, 0, 134);
+
 }
 #cuadro{
   padding: 0%;
 }
 
-.footer{
-  width: 100%;
-  height: 120px;
-  border: 0px;
-  font-family: sans-serif;
-}
-footer{
-  width: 100%;
-  background: black;
-  color: white;
-  
-}

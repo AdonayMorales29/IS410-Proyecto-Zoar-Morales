@@ -8,11 +8,41 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+header{
+   color: white;
+
+}
+.gray{
+    background: rgba(0, 0, 0, 0.2);
+}
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.863);
+}
+/*#button {
+    background-color: rgba(116, 6, 131, 0.911);
+    border-color:  rgba(114, 7, 141, 0.89);
+    border-radius: 12px;
+    color: aliceblue;
+    width: 120px;
+    text-transform:none;
+  }
+  #input{
+    border-color:rgb(119, 0, 134);*/
+
+
+
+
+
+
+
 .wrap{
     max-width: 1600px;
     width: 90%;
+   
     margin: auto;
+    background-size: cover;
     background:rgba(216, 96, 168, 0.377);
+
    
 }
 .wrap h1{
@@ -38,6 +68,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 20%;
+    padding: 0 10px;
 
 }
 
@@ -53,7 +84,7 @@ body{
 
 }
 .categoria_item .ct_item-active{
-    background: rgb(204, 171, 190);
+    background: rgb(0, 0, 0);
 }
 
 /* Productos*/
