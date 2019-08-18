@@ -37,7 +37,7 @@ nav label{
     font-family:Arial, Helvetica, sans-serif;
 }
 .contenedor{
-    background-color: rgb(2, 2, 2);
+    background-color: rgba(2, 2, 2, 0.897);
     width: 30%;
     height: 450px;
     font-family:Arial, Helvetica, sans-serif;
@@ -77,7 +77,7 @@ nav label{
     padding:30px;
 }
 #button{
-    background-color: rgb(71, 0, 138);
+    background-color:  rgba(109, 35, 78, 0.849);
     box-sizing: border-box;
     border:rgb(54, 2, 88);
     width: 65%;
@@ -87,7 +87,8 @@ nav label{
     font-family:Arial, Helvetica, sans-serif;
 }
 #button:hover{
-    background-color: blueviolet;
+    background-color: #F2A7E6;
     border-color:white;
+    color: black;
 }
 

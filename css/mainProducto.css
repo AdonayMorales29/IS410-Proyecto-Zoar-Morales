@@ -4,25 +4,34 @@
     box-sizing: border-box;
 }
 body{
-    background: grey;
+    background: rgba(128, 128, 128, 0.199);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.contenidoPrincipal{
+    margin-left:30%;
+    margin-bottom: 10px;
+    color:rgba(0, 0, 0, 0.753);
     font-family: Arial, Helvetica, sans-serif;
-    
+    width: 300px;
+    height: 30px;
+    border-color: #6D234E;
+    font-size: 1.05em;
+    background: rgba(109, 35, 78, 0.082);
+    border:0.5px;
 }
 .navegador {
         background-color: rgba(78, 60, 71, 0.144) !important;
       
-    }
-    
-
+    } 
 #buscador:hover{
-    color:white;
+    color:#F29F05;
     background:#F2A7E6;
     border-color: #F2A7E6;
 
 }
 #buscador{
     background-color: rgba(109, 35, 78, 0.849);
-    color: white;
+    color: #F29F05;
     font-size: 15px;
     width: 40px;
     border-color: #6D234E
@@ -60,15 +69,10 @@ body{
 h1{
     text-align: center;
     color: rgb(196, 57, 138);
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-
 }
 .wrap h1{
     color: rgba(196, 57, 138, 0.76);
     font-weight: 400px;
-   
     text-align: center;
     margin: 15px 0px;
 }
@@ -86,6 +90,7 @@ h1{
     width: 20%;
     padding: 30px 10px;
     background:rgba(78, 60, 71, 0.144);
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -99,6 +104,7 @@ h1{
     text-decoration: none;
     text-align: center;
     color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 
 }
@@ -131,7 +137,8 @@ h1{
     width: 200px;
     padding: 8px 0;
     background: rgb(138, 12, 85);
-    color: #fff;
+    color: rgba(255, 255, 255, 0.808);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-decoration: none;
 
@@ -179,5 +186,21 @@ h1{
 
 }
 .estrellas{
-    color: rgb(255, 255, 0);
+    color: #F29F05;
+}
+
+.enlaces{
+    color:#F29F05;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.enlaces :hover{
+   
+    color:rgb(172, 8, 122);
+}
+.enlaces1{
+    color:#F29F05;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
 }
