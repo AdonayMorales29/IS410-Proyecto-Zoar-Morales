@@ -13,6 +13,7 @@
   height: 300px;
   border-radius: 100%;
   margin-bottom: 26px;
+  filter: drop-shadow(5px 5px 10px #444);
 }
 
 .imgs{

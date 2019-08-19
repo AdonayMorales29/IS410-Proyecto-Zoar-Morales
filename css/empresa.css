@@ -5,7 +5,7 @@
 
 body{
     background: rgba(128, 128, 128, 0.199);
-    background-image: url(../img/Fondo1.jpg);
+   background-image: url(../img/Fondo1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -76,7 +76,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 30px;
-    height: 900px;
+    height: 1000px;
     
 }
 h1{
@@ -100,7 +100,7 @@ input{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 20px;
-    height: 750px;  
+    height: 800px;  
 
 }
 .label{
@@ -108,7 +108,7 @@ input{
 }
 .selector{
         display: block;
-        width: 300px;
+     
         padding: 0.375rem 0.75rem;
         font-size: 1rem;
         line-height: 1.5;
