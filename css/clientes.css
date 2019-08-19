@@ -49,7 +49,7 @@ body{
     float: left;
 }  
 .boton{
-    background: #400129d2 !important;
+    background: #4001299f;
     position: relative;
     width: 200px;
     height: 40px;
@@ -59,15 +59,15 @@ body{
 }
 
 .boton :hover{
-    background: #a80e70;
+    background: #a80e709d;
     
 }
 .google{
     position: relative;
     width: 0px;
 }
-.button2:hover{
-    background :#a80e7073;
+.button2 :hover{
+    background :#a80e7027;
   }
 .contenedorPrincipal{
     max-width: 700px;
