@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Empresa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -12,9 +12,129 @@
 </head>
 <body>
    
-     <nav class= "navbar navbar-light bg-light" > <form class= "form-inline" > <input class= "form-control mr-sm-2" type= "search" placeholder= "Search" aria-label= "Search" > <button class= "btn btn-outline-success my-2 my-sm-0" type= "submit" > Search </button> </form> </nav> 
-    <p>Hola Mundo Ya sincronice</p>
-
-
+        <div class="container-fluid contenedorPrincipal">
+                <img  class="imagen"  src="img/Zoar/icono.png">
+                <h1 style="color:#400129d2">Crear Cuenta de Empresa</h1>
+                <form action="" class="container contenedorPrincipal2">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <label class="label" for="validationCuston01">Nombre de la Empresa</label>
+                            <input type="text" class="form-control " id="validationCuston01" placeholder="Nombre" required="">
+                            <div class="invalid-feedback">
+                                Ingrese el nombre completo de la empresa
+                            </div>
+                        </div>
+        
+                        <div class="col-md-6 mb-3">
+                            <label class="label" for="select-Pais">Selecciona el Pais</label><br>
+                                <select class="selector">
+                                        <option value="">Pais</option>
+                                        <option value="">Honduras</option>
+                                        <option value="">El Salvador</option>
+                                        <option value="">Costa Rica</option>
+                                        <option value="">España</option>
+                                        <option value="">Brasil</option>
+                                        <option value="">Estado Unidos </option>
+                                        <option value="">Mexico</option>
+                                </select>
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationCuston03">Direccion de Tu Empresa</label>
+                            <input type="text" class="form-control" id="validationCuston03" placeholder="Direccion" required="">
+                        </div>
+            
+                        
+                        </div>
+                   
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                                <label for="validationCuston05">Latitud</label>
+                                <input type="text" class="form-control" id="validationCuston05" placeholder="Latitud" required="">
+                                <div class="invalid-feedback">
+                                    Ingrese los datos
+                                </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                                <label for="validationCuston06">Longitud</label>
+                                <input type="text" class="form-control" id="validationCuston06" placeholder="Longitud" required="">
+                                <div class="invalid-feedback">
+                                        Ingrese los datos
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4 mb-3">
+                                    <label for="validationCuston05">Tel</label>
+                                    <input  type="text" class="form-control" id="validationCuston05" placeholder="Telefono Empresarial" required="">
+                                    <div class="invalid-feedback">
+                                        Ingrese los datos
+                                    </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                    <label for="validationCuston06">Correo </label>
+                                    <input  type="email" class="form-control" id="validationCuston06" placeholder="Correo" required="">
+                                    <div class="invalid-feedback">
+                                            Ingrese los datos
+                                    </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                    <label for="validationCuston06">Fax</label>
+                                    <input type="text" class="form-control" id="validationCuston06" placeholder="Fax" required="">
+                                    <div class="invalid-feedback">
+                                            Ingrese los datos
+                                    </div>
+                            </div>    
+                    </div>
+                    <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCuston05">Redes Sociales de la Empresa</label>
+                                <input type="text" class="form-control" id="validationCuston05" placeholder="facebook" required=""><br>
+                                <input type="text" class="form-control" id="validationCuston05" placeholder="Twiter" required=""><br>
+                                <input type="text" class="form-control" id="validationCuston05" placeholder="Instagram" required=""><br>
+                                <div class="invalid-feedback">
+                                    Ingrese los datos
+                                </div>
+                            </div>
+                    </div>            
+                    <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div>
+                                    <label for="validationCuston06">Banner de Empresa</label>
+                                    <button class="botones" type="">Subir Banner</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                    <label for="validationCuston06">Logotipo de Tu Empresa</label>
+                                    <button class="botones" type="">Subir Logotipo</button>
+                             </div>
+                    </div>
+                    <button class="boton" type="submit">Crear Cuenta</button>
+                </form>
+                <script src="js/jquery-3.4.1.min.js"></script>
+                <script src="js/popper.min.js"></script>
+                <script src="js/bootstrap.min.js"></script> 
+            </div>
+             
+           
+            <script>
+                (function(){
+                    'use strict';
+                    window.addEventListener('load,', function(){
+                    
+                        var form=document.getElementById('needs-validation');
+                        form.addEventListener('submit',function(event){
+                            if(form.checkValidty()==false){
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        },false);
+                    },false);
+                
+                })();
+            </script>
 </body>
 </html>
