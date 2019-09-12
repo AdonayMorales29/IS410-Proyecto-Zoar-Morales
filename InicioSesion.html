@@ -19,16 +19,21 @@
       <h1> <img src="img/Zoar/icono.png" style="width:50px">Iniciar Sesión</h1>
       <br>
       <label class="labels" for="email">E-mail o Número de Teléfono</label><br>
-      <input type="email" name="email" class="inputs"><br>
+      <input type="email" id="correo"name="email" class="inputs"><br>
       <label class="labels" for="contraseña" required >Contraseña</label><br>
-      <input type="password" name="contraseña" class="inputs" ><span class="glyphicon glyphicon-lock"></span><br><br>
+      <input type="password" id="contraseña" name="contraseña" class="inputs" ><span class="glyphicon glyphicon-lock"></span><br><br>
       <input type="checkbox">Recuerdame<br><br>
-      <button type="button" class="btn btn-primary" id="button">Iniciar Seción</button>
+      <button class="boton"   id="login">Iniciar Sesión</button>
       <hr>
       <a href="formulario-cliente.html" ><u>Registrate</u></a>
     </div>
   
-    
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>  
+    <script src="js/controladorInicioSesion.js"></script>
 </body>
 </html>

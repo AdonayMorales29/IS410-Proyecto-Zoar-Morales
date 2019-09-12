@@ -76,17 +76,18 @@ nav label{
 .check{
     padding:30px;
 }
-#button{
+.boton{
     background-color:  rgba(109, 35, 78, 0.849);
     box-sizing: border-box;
     border:rgb(54, 2, 88);
     width: 65%;
+    height: 20%;
     margin-left: 17.5%;
     border-radius: 20px; 
     border-bottom-width: 0.5px solid rgb(255, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
 }
-#button:hover{
+.boton:hover{
     background-color: #F2A7E6;
     border-color:white;
     color: black;
