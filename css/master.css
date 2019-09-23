@@ -20,6 +20,10 @@
   width: 1200px;
   max-height:100em !important;
 }
+.principal{
+  width: 1250px;
+  height: 500px;
+}
 
 #cuadro{
   padding: 0%;
