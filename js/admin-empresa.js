@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+    
+    
+    console.log("la Empresa es =>" + $("#usuarioEmpresa").val() );
+
+    
     // clase al primer enlace
     $('.Principal .contenido[categoria="Todo"]').addClass('ct_item-active');
     $('.contenido').click(function(){
@@ -39,4 +45,31 @@ $(document).ready(function(){
      
 });
 
+
+function obtenerProductos(id){
+
+    var datos = {id: id};
+
+    $.ajax({
+        url: 'ajax/gestion-empresa.php',
+        method: 'POST',
+        data: datos,
+        dataType: 'json',
+        success : function(respuesta){
+            console.log(respuesta);
+        }
+    });
+
+}
  
+
+
+function obtenerInfo(id){
+
+
+}
+
+function agregarProductos(){
+
+    
+}

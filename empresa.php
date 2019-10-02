@@ -1,3 +1,11 @@
+<?php 
+    session_start();
+    $id = 'Lq7xhL9RNB-bdtDLk';
+    
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +41,7 @@
             <div class=" col-xl-2 col-lg-2 col-md-4 col-sm-12   Principal  ">
                 <a href="#" class="contenido" categoria="Todo">Todo</a>
                 <a href="#" class="contenido" categoria="principal">Principal</a>
-                <a href="productos.html" class="contenido" categoria="productos"><i class="fas fa-shopping-cart"></i>Productos</a>
+                <a href="productos.php?id=<?php echo $id?>" class="contenido" categoria="productos"><i class="fas fa-shopping-cart"></i>Productos</a>
                 <a href="#" class="contenido" categoria="perfil"><i class="fas fa-user-tie"></i>Perfil</a>
                 <a href="#" class="contenido" categoria="Graficos">Graficos</a>
                 <a href="landing.html" class="contenido" categoria="paginaPrincipal"><i class="fas fa-angle-double-left"></i>Pagina Principal</a>
@@ -58,6 +66,7 @@
                                 <button class="botonEmpresa">Grafico de Seguidores por mes</button>
                             </div>     
                             <br><br><br> 
+                            <input type="text" id="usuarioEmpresa" value=" <?php echo $id ?> ">
                 </div> 
                 <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 contenidoMuestra" categoria="Graficos" >

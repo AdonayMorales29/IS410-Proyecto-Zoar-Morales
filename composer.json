@@ -1,0 +1,12 @@
+{
+    "name": "zoar/is410-proyecto-zoar-morales",
+    "authors": [
+        {
+            "name": "AdonayMorales29",
+            "email": "zadonay111@gmail.com"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "^4.32"
+    }
+}

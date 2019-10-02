@@ -1,3 +1,10 @@
+<?php 
+    session_start();
+    $id = $_GET["id"];
+    
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +20,9 @@
 </head>
    
 <body >
+
+<input type="text" id="usuarioEmpresa" value=" <?php echo $id ?> ">
+
    <!--Contenedor--> 
 <div class="container-fluid">
         <div>
@@ -178,7 +188,7 @@
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script> 
-        <script src="js/mainProducto.js"></script>
+        <script src="js/producto.js"></script>
        
         
 </body>
