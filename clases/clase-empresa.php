@@ -147,7 +147,10 @@
             $resultado = $coleccion->push($empresa);
 
             if ($resultado->getKey() != null ) {
-                return '{"mensaje" : "Registro almacenado", "Key" : "'.$resultado->getKey().'" }';
+				return '{"mensaje" : "Registro almacenado", "Key" : "'.$resultado->getKey().'" }';
+				
+				//$coleccion = $db->getReference("empresas/".$resultado->getKey()."/Redes Sociales")->push(array());
+
                 $_SESSION["id"]=$resultado->getKey();
             } else {
                 return '{"mensaje" : "Error al guardar el registro"}';
