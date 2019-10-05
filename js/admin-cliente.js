@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+
+
+    
     // clase al primer enlace
     $('.Principal .contenido[categoria="Todo"]').addClass('ct_item-active');
     $('.contenido').click(function(){

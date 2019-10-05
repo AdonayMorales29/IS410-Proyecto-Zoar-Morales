@@ -3,8 +3,8 @@ $(document).ready(function(){
     
     
     console.log("la Empresa es =>" + $("#usuarioEmpresa").val() );
-
     
+
     // clase al primer enlace
     $('.Principal .contenido[categoria="Todo"]').addClass('ct_item-active');
     $('.contenido').click(function(){
