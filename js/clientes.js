@@ -1,11 +1,11 @@
-$(document).ready(function(){
-    console.log("la Empresa es =>" + $("#usuarioEmpresa").val() )
-});
+//$(document).ready(function(){
+    //console.log("la Empresa es =>" + $("#usuarioEmpresa").val() )
+//});
 
 
 
-$("#btn-crear").click( function(){
-   // alert("HOLA DESDE EL BOTOM");
+$("#btn-crear").click(function(){
+   //alert("HOLA DESDE EL BOTOM");
 
     //$("#nombreEmpresa").val("hola")
 
@@ -32,7 +32,7 @@ $("#btn-crear").click( function(){
 
             if (respuesta.key!="") {
                 console.log( "se guardo el registro" );
-                window.location = 'empresa.php';
+                window.location = 'admi-cliente.php';
             } else {
                 console.log( "no guardo el registro" );
                 
@@ -48,9 +48,9 @@ $("#btn-crear").click( function(){
 
 
 
-$("#btn-crea").click(funcionCrearEmpresa);
+$("#btn-crear").click(funcionCrearCliente);
 
 
-var funcionCrearEmpresa =  function crearEmpresa() {
+var funcionCrearCliente =  function crearCliente() {
     
 }

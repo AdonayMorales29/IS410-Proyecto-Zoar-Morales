@@ -5,8 +5,8 @@
 		private $idCliente;
 		private $nombre;
         private $apellido;
+        private $contraseña;
         private $correoelectronico;
-		private $contraseña;
 		private $ciudad;
         private $estadocivil;
         private $edad;
@@ -14,16 +14,16 @@
 		public function __construct($idCliente,
 					$nombre,
                     $apellido,
-                    $correoelectronico,
                     $contraseña,
+                    $correoelectronico,
 					$ciudad,
                     $estadocivil,
                     $edad){
 			$this->idCliente = $idCliente;
 			$this->nombre = $nombre;
             $this->apellido = $apellido;
+            $this->contraseña = $contraseña;
             $this->correoelectronico=$correoelectronico;
-			$this->contraseña = $contraseña;
 			$this->ciudad = $ciudad;
             $this->estadocivil = $estadocivil;
             $this->edad=$edad;
@@ -81,8 +81,8 @@
 			return "IdCliente: " . $this->idCliente . 
 				" Nombre: " . $this->nombre . 
                 " Apellido: " . $this->apellido . 
+                " Contraseña: " . $this->contraseña . 
                 " CorreoElectronico: ".$this->correoelectronico.
-				" Contraseña: " . $this->contraseña . 
 				" Estadocivil: " . $this->estadocivil . 
                 " Ciudad: " . $this->ciudad.
                 " Edad:".$this->edad;
@@ -98,8 +98,6 @@
 
             if ($resultado->getKey() != null ) {
 				return '{"mensaje" : "Registro almacenado", "Key" : "'.$resultado->getKey().'" }';
-				
-				//$coleccion = $db->getReference("empresas/".$resultado->getKey()."/Redes Sociales")->push(array());
 
                 $_SESSION["id"]=$resultado->getKey();
             } else {

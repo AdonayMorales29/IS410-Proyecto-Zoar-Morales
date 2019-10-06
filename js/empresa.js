@@ -52,7 +52,7 @@ $("#btn-crear").click( function(){
 
 
 
-$("#btn-crea").click(funcionCrearEmpresa);
+$("#btn-crear").click(funcionCrearEmpresa);
 
 
 var funcionCrearEmpresa =  function crearEmpresa() {

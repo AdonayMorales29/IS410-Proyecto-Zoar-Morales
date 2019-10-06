@@ -42,12 +42,14 @@
     echo $producto->actualizarProducto($database->getDB(), $_GET["idEmpresa"] );
 }
 
+//------------------------------------------------------------------------------------------------------------
+
 if ($_SERVER['REQUEST_METHOD']=='DELETE' && isset($_GET["idProducto"]) ) {
 
     echo Producto::eliminarProducto( $database->getDB(), $_GET["idProducto"], $_GET["idEmpresa"]);
         
 }
-
+//------------------------------------------------------------------------------------------------------------
 if ($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST["idProducto"]) && isset($_POST["idEmpresa"]) ) {
 
     echo Producto::obtenerProducto( $database->getDB(), $_POST["idProducto"], $_POST["idEmpresa"]);
