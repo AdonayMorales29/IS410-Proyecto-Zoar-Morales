@@ -37,8 +37,7 @@
 
 if ($_SERVER['REQUEST_METHOD']=='DELETE' && isset($_GET["idCliente"]) ) {
         
-         
-    echo "remove"; 
+    echo Cliente::eliminarCliente( $database->getDB(), $_GET["idCliente"]);
 }
 
     

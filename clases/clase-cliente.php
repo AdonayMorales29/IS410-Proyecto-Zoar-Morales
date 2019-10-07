@@ -106,28 +106,30 @@
             
         }
         
-        public static function eliminarProducto($db, $idProducto, $idEmpresa){
-            $ruta = "empresas/".$idEmpresa."/producto";
+        public static function eliminarCliente($db){
+            $ruta = "cliente";
 
             $coleccion = $db->getReference($ruta);
-            $resultado = $coleccion->getChild($idProducto)->remove();
+            $resultado = $coleccion->getSnapshot()->getvalue();
+
 
             return '{"mensaje" : "Registro Eliminado"}';
             
         }
 
-        public static function obtenerProducto($db, $idProducto, $idEmpresa){
-            $ruta = "empresas/".$idEmpresa."/producto";
+        public static function obtenerCliente($db){
+            $ruta = "cliente";
 
             $coleccion = $db->getReference($ruta);
-            $resultado = $coleccion->getChild($idProducto)->getValue();
+            $resultado = $coleccion->getSnapshot()->getValue();
+
 
            // return '{"mensaje" : "Registro Eliminado"}';
            return json_encode($resultado);
             
         }
 
-        public static function obtenerProductos($db, $idEmpresa){
+       /* public static function obtenerProductos($db, $idEmpresa){
             $ruta = "empresas/".$idEmpresa."/producto";
 
             $coleccion = $db->getReference($ruta);
@@ -136,19 +138,19 @@
            // return '{"mensaje" : "Registro Eliminado"}';
            return json_encode($resultado);
             
-        }
+        }*/
         
-        public function actualizarProducto($db, $idEmpresa){
-            $producto = $this->getData();
+        public function actualizarCliente($db){
+            $cliente = $this->getData();
 
-            $ruta = "empresas/".$idEmpresa."/producto";
+            $ruta = "Cliente/".$idCliente;
 
             $coleccion = $db->getReference($ruta);
-            $resultado = $coleccion->getChild($this->idProducto)->set($producto);
+            $resultado = $coleccion->getChild($this->getIdCliente)->set($cliente);
 
 
             if ($resultado->getKey() != null ) {
-                return '{"mensaje" : "Registro Actualizado", "Key" : "'.$this->idProducto.'" }';
+                return '{"mensaje" : "Registro Actualizado", "Key" : "'.$this->idCliente.'" }';
                 $_SESSION["id"]=$resultado->getKey();
             } else {
                 return '{"mensaje" : "No se Puede Actualizar"}';
@@ -159,7 +161,7 @@
 		public function getData(){
 			$resul["Nombre"] = $this->nombre;
 			$resul["Apellido"] = $this->apellido;
-			$resul["Contraseña"] = $this->contraseña;
+			$resul["Contraseña"] = password_hash($this->contraseña, PASSWORD_DEFAULT);
             $resul["CorreoElectronico"] = $this->correoelectronico;
             $resul["Ciudad"] = $this->ciudad;
             $resul["Estadocivil"] = $this->estadocivil;
@@ -167,7 +169,13 @@
 
 			return $resul;
 
-		}
+        }
+        
+        public static function login($cliente, $contraseña,$db){
+
+
+        }
+
 
 
 	}

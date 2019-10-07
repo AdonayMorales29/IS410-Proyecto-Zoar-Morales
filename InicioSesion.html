@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Inicio Secion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="shortcut icon" href="img/Logo/icono.png">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -18,12 +17,14 @@
 
       <h1> <img src="img/Zoar/icono.png" style="width:50px">Iniciar Sesión</h1>
       <br>
-      <label class="labels" for="email">E-mail o Número de Teléfono</label><br>
-      <input type="email" id="correo"name="email" class="inputs"><br>
-      <label class="labels" for="contraseña" aria-required="" >Contraseña</label><br>
-      <input type="password" id="contraseña" name="contraseña" class="inputs" ><span class="glyphicon glyphicon-lock"></span><br><br>
-      <input type="checkbox">Recuerdame<br><br>
-      <button class="boton" id="login">Iniciar Sesión</button>
+      <form id="form-login">
+          <label class="labels" for="email">E-mail o Número de Teléfono</label><br>
+          <input type="email" id="correo" name="correo" class="inputs"><br>
+          <label class="labels" for="contraseña" aria-required="" >Contraseña</label><br>
+          <input type="password" id="contraseña" name="contraseña" class="inputs" ><span class="glyphicon glyphicon-lock"></span><br><br>
+          <input type="checkbox">Recuerdame<br><br>
+          <button class="boton" id="btn-login" type="button" >Iniciar Sesión</button>
+      </form>
       <hr>
       <a href="formulario-cliente.html" ><u>Registrate</u></a>
 
@@ -35,6 +36,6 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>  
-    <script src="js/controladorInicioSesion.js"></script>
+    <script src="js/controlador-login.js"></script>
 </body>
 </html>

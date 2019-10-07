@@ -167,6 +167,16 @@
            // return '{"mensaje" : "Registro Eliminado"}';
            return json_encode($resultado);
             
+		}
+		
+        public static function eliminarEmpresas($db){
+            $ruta = "empresas/".$idEmpresa;
+
+			$coleccion = $db->getReference($ruta);
+            $resultado = $coleccion->getSnapshot()->getValue();
+
+            return '{"mensaje" : "Registro Eliminado"}';
+            
         }
 			
 
