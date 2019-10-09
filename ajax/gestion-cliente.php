@@ -5,6 +5,8 @@
 
     $database = new Database();
 
+    
+
     if ($_SERVER['REQUEST_METHOD']=='POST') {
         
         $cliente = new Cliente(null,
@@ -27,7 +29,7 @@
    if ($_SERVER['REQUEST_METHOD']=='GET' && !isset($_GET["idCliente"])) {
 
     echo Cliente::obtenerCliente($database->getDB());
-}
+    }
 
    if ($_SERVER['REQUEST_METHOD']=='PUT' && isset($_GET["id"]) ) {
         

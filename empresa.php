@@ -64,23 +64,9 @@
                                 <button class="botonEmpresa">Grafico de Seguidores por mes</button>
                             </div>     
                             <br><br><br> 
-                            <input type="text" id="usuarioEmpresa" value=" <?php echo $id ?> ">
+                          
                 </div> 
-                <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 contenidoMuestra" categoria="Graficos" >
-                                <img src="img/listado.jpg" alt="">
-                             <button class="botonEmpresa">Listado de Comentarios</button>
-                            </div>  
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 contenidoMuestra" categoria="Graficos" >
-                                <img src="img/PorDia.png" alt="">
-                                <button class="botonEmpresa">Grafico de Ventas Por Dias</button>
-                            </div>  
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 contenidoMuestra" categoria="Graficos" >
-                                <img src="img/mensual.jpg">
-                                <button class="botonEmpresa">Grafico de Seguidores por mes</button>
-                            </div>     
-                            <br><br><br> 
-                </div> 
+               
               <div class="row">
                   
                     <div class="col-xl-4 col-lg-4 col-md-12 col-xs-12 col-sm-12 contenidoMuestra" categoria="principal" >
@@ -138,7 +124,7 @@
      
 </div>                
 
-
+<input type="text" id="usuarioEmpresa" value=" <?php echo $id ?> ">
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script> 

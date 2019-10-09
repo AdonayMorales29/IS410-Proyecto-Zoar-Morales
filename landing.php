@@ -33,7 +33,7 @@
                   <a  style="font-style: Arial;  font-size:17px;color:#400129d2" class="nav-link" href="productos.html"><i class="fas fa-cart-arrow-down"></i>Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a  style="font-style: Arial;  font-size:17px; color:#400129d2" class="nav-link " href="#" tabindex="-1"><i class="fas fa-globe-americas"></i>Localización</a>
+                  <a  style="font-style: Arial;  font-size:17px; color:#400129d2" class="nav-link " href="formulario-empresa.html" tabindex="-1"><i class="fas fa-globe-americas"></i>Regristro Empresa</a>
                 </li>
               </ul>
                 
@@ -49,11 +49,11 @@
             </div>
             <hr>
            <div id="fondoPrincipal" class="col-12" style="background-image: url('img/fon.jpg'); filter: drop-shadow(5px 5px 10px #444);">
-              <a class="empiezaAqui" style="color:#400129d2; text-align:center;font-family:italic;" href="productos.html">Empieza a Navegar Aqui!<i  class="fas fa-arrow-alt-circle-right"></i></a>
+              <a class="empiezaAqui" style="color:#400129d2; text-align:center;font-family:Arial;" href="productos.html">Empieza a Navegar Aqui!<i  class="fas fa-arrow-alt-circle-right"></i></a>
             </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-12">
               <img src="img/10.png" style="width: 100%; height:180px">
-              <h4 style="text-align: center; font-family: Arial;color: #63023F"> PRESENTEMONOS Y HAS QUE TU PRODUCTO LLEGUE MAS LEJOS <a href="formulario-empresa.html">REGISTRA TU EMPRESA AQUI </a></h4>
+              <h4 style="text-align: center; font-family: Arial;color: #63023F"><a href="formulario-empresa.html">REGISTRA TU EMPRESA AQUI </a></h4>
           </div>
         </div>
       <div class="container-fluid">
