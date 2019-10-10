@@ -1,5 +1,7 @@
 #fondoPrincipal{
+
   height: 500px;
+  text-align: center;
   background-size: cover;
    width: 100%;
 }
@@ -11,12 +13,13 @@
 .imagenes{
   width: 100%;
   height: 300px;
-  border-radius: 20%;
+  border-radius: 90%;
   margin-bottom: 26px;
   filter: drop-shadow(5px 5px 10px #444);
 }
 
 .imgs{
+  height: 500px;
   width: 1200px;
   max-height:100em !important;
 }
@@ -38,8 +41,7 @@
   text-decoration-line: inherit;
 
 }
-.empiezaAqui{
-  text-align: center;
-  margin-left: 30%;
-  font-size: 3em;
+#carrusel{
+  width: 100%;
+  height: 300px;
 }

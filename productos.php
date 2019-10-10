@@ -21,7 +21,6 @@
    
 <body >
 
-<input type="text" id="usuarioEmpresa" value=" <?php echo $id ?> ">
 
    <!--Contenedor--> 
 <div class="container-fluid">
@@ -53,7 +52,7 @@
                 <a href="#" class="categoria_item" categoria="Deportes">Deportes</a>
                 <a href="#" class="categoria_item" categoria="Repuestos">Repuestos</a>
                 <a href="#" class="categoria_item" categoria="Instrumentos">Instrumentos Musicales</a> 
-                <a href="landing.html" class="contenido" categoria="paginaPrincipal"><i class="fas fa-angle-double-left"></i>Pagina Principal</a>
+                <a href="landing.php" class="contenido" categoria="paginaPrincipal"><i class="fas fa-angle-double-left"></i>Pagina Principal</a>
             </div>
             <!--Productos a Mostrar-->
 

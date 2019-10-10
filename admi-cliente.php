@@ -31,7 +31,7 @@
                 <a href="#" class="contenido" categoria="Favoritos"><i class="fas fa-heart"></i>Favoritos</a>
                 <a href="#" class="contenido" categoria="Carrito"><i class="fas fa-cart-arrow-down"></i>Carrito</a>
                 <a href="productos.html" class="contenido" categoria="productos"><i class="fas fa-shopping-cart"></i>Productos</a>
-                <a href="landing.html" class="contenido" categoria="paginaPrincipal"><i class="fas fa-angle-double-left"></i>Pagina Principal</a>
+                <a href="landing.php" class="contenido" categoria="paginaPrincipal"><i class="fas fa-angle-double-left"></i>Pagina Principal</a>
               
               
                
